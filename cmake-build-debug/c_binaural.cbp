@@ -26,7 +26,13 @@
 				<Compiler>
 					<Add directory="C:/Users/mario/OneDrive/Documents/cours/FYC/c-binaural/steamaudio"/>
 					<Add directory="C:/Users/mario/OneDrive/Documents/cours/FYC/c-binaural/steamaudio/include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\ATLMFC\include"/>
 					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\cppwinrt"/>
 				</Compiler>
 				<MakeCommands>
 					<Build command="nmake /NOLOGO /f C:\Users\mario\OneDrive\Documents\cours\FYC\c-binaural\cmake-build-debug\Makefile VERBOSE=1 c_binaural"/>
@@ -44,7 +50,13 @@
 				<Compiler>
 					<Add directory="C:/Users/mario/OneDrive/Documents/cours/FYC/c-binaural/steamaudio"/>
 					<Add directory="C:/Users/mario/OneDrive/Documents/cours/FYC/c-binaural/steamaudio/include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\ATLMFC\include"/>
 					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\cppwinrt"/>
 				</Compiler>
 				<MakeCommands>
 					<Build command="nmake /NOLOGO /f C:\Users\mario\OneDrive\Documents\cours\FYC\c-binaural\cmake-build-debug\Makefile VERBOSE=1 c_binaural/fast"/>
@@ -74,7 +86,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/mario/OneDrive/Documents/cours/FYC/c-binaural/main.c">
+		<Unit filename="C:/Users/mario/OneDrive/Documents/cours/FYC/c-binaural/main.cpp">
 			<Option target="c_binaural"/>
 		</Unit>
 		<Unit filename="C:/Users/mario/OneDrive/Documents/cours/FYC/c-binaural/steamaudio/include/phonon.h">

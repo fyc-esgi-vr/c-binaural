@@ -4,16 +4,16 @@ set(CMAKE_DEPENDS_IN_PROJECT_ONLY OFF)
 
 # The set of languages for which implicit dependencies are needed:
 set(CMAKE_DEPENDS_LANGUAGES
-  "C"
+  "CXX"
   )
 # The set of files for implicit dependencies of each language:
-set(CMAKE_DEPENDS_CHECK_C
-  "C:/Users/mario/OneDrive/Documents/cours/FYC/c-binaural/main.c" "C:/Users/mario/OneDrive/Documents/cours/FYC/c-binaural/cmake-build-debug/CMakeFiles/c_binaural.dir/main.c.obj"
+set(CMAKE_DEPENDS_CHECK_CXX
+  "C:/Users/mario/OneDrive/Documents/cours/FYC/c-binaural/main.cpp" "C:/Users/mario/OneDrive/Documents/cours/FYC/c-binaural/cmake-build-debug/CMakeFiles/c_binaural.dir/main.cpp.obj"
   )
-set(CMAKE_C_COMPILER_ID "MSVC")
+set(CMAKE_CXX_COMPILER_ID "MSVC")
 
 # The include file search paths:
-set(CMAKE_C_TARGET_INCLUDE_PATH
+set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "../steamaudio"
   "../steamaudio/include"
   )

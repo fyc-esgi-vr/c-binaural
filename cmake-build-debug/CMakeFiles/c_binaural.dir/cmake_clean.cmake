@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/c_binaural.dir/main.c.obj"
+  "CMakeFiles/c_binaural.dir/main.cpp.obj"
   "c_binaural.exe"
   "c_binaural.exe.manifest"
   "c_binaural.lib"
@@ -7,6 +7,6 @@ file(REMOVE_RECURSE
 )
 
 # Per-language clean rules from dependency scanning.
-foreach(lang C)
+foreach(lang CXX)
   include(CMakeFiles/c_binaural.dir/cmake_clean_${lang}.cmake OPTIONAL)
 endforeach()

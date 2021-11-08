@@ -118,29 +118,29 @@ c_binaural\fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\c_binaural.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\c_binaural.dir\build
 .PHONY : c_binaural\fast
 
-main.obj: main.c.obj
+main.obj: main.cpp.obj
 .PHONY : main.obj
 
 # target to build an object file
-main.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\c_binaural.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\c_binaural.dir\main.c.obj
-.PHONY : main.c.obj
+main.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\c_binaural.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\c_binaural.dir\main.cpp.obj
+.PHONY : main.cpp.obj
 
-main.i: main.c.i
+main.i: main.cpp.i
 .PHONY : main.i
 
 # target to preprocess a source file
-main.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\c_binaural.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\c_binaural.dir\main.c.i
-.PHONY : main.c.i
+main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\c_binaural.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\c_binaural.dir\main.cpp.i
+.PHONY : main.cpp.i
 
-main.s: main.c.s
+main.s: main.cpp.s
 .PHONY : main.s
 
 # target to generate assembly for a file
-main.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\c_binaural.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\c_binaural.dir\main.c.s
-.PHONY : main.c.s
+main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\c_binaural.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\c_binaural.dir\main.cpp.s
+.PHONY : main.cpp.s
 
 # Help Target
 help:

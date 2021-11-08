@@ -55,36 +55,36 @@ include CMakeFiles\c_binaural.dir\progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles\c_binaural.dir\flags.make
 
-CMakeFiles\c_binaural.dir\main.c.obj: CMakeFiles\c_binaural.dir\flags.make
-CMakeFiles\c_binaural.dir\main.c.obj: ..\main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\mario\OneDrive\Documents\cours\FYC\c-binaural\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/c_binaural.dir/main.c.obj"
+CMakeFiles\c_binaural.dir\main.cpp.obj: CMakeFiles\c_binaural.dir\flags.make
+CMakeFiles\c_binaural.dir\main.cpp.obj: ..\main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\mario\OneDrive\Documents\cours\FYC\c-binaural\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/c_binaural.dir/main.cpp.obj"
 	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx64\x64\cl.exe @<<
- /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoCMakeFiles\c_binaural.dir\main.c.obj /FdCMakeFiles\c_binaural.dir\ /FS -c C:\Users\mario\OneDrive\Documents\cours\FYC\c-binaural\main.c
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\c_binaural.dir\main.cpp.obj /FdCMakeFiles\c_binaural.dir\ /FS -c C:\Users\mario\OneDrive\Documents\cours\FYC\c-binaural\main.cpp
 <<
 
-CMakeFiles\c_binaural.dir\main.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/c_binaural.dir/main.c.i"
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx64\x64\cl.exe > CMakeFiles\c_binaural.dir\main.c.i @<<
- /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\mario\OneDrive\Documents\cours\FYC\c-binaural\main.c
+CMakeFiles\c_binaural.dir\main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/c_binaural.dir/main.cpp.i"
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx64\x64\cl.exe > CMakeFiles\c_binaural.dir\main.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\mario\OneDrive\Documents\cours\FYC\c-binaural\main.cpp
 <<
 
-CMakeFiles\c_binaural.dir\main.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/c_binaural.dir/main.c.s"
+CMakeFiles\c_binaural.dir\main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/c_binaural.dir/main.cpp.s"
 	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx64\x64\cl.exe @<<
- /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoNUL /FAs /FaCMakeFiles\c_binaural.dir\main.c.s /c C:\Users\mario\OneDrive\Documents\cours\FYC\c-binaural\main.c
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\c_binaural.dir\main.cpp.s /c C:\Users\mario\OneDrive\Documents\cours\FYC\c-binaural\main.cpp
 <<
 
 # Object files for target c_binaural
 c_binaural_OBJECTS = \
-"CMakeFiles\c_binaural.dir\main.c.obj"
+"CMakeFiles\c_binaural.dir\main.cpp.obj"
 
 # External object files for target c_binaural
 c_binaural_EXTERNAL_OBJECTS =
 
-c_binaural.exe: CMakeFiles\c_binaural.dir\main.c.obj
+c_binaural.exe: CMakeFiles\c_binaural.dir\main.cpp.obj
 c_binaural.exe: CMakeFiles\c_binaural.dir\build.make
 c_binaural.exe: CMakeFiles\c_binaural.dir\objects1.rsp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\mario\OneDrive\Documents\cours\FYC\c-binaural\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable c_binaural.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\mario\OneDrive\Documents\cours\FYC\c-binaural\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable c_binaural.exe"
 	C:\Users\mario\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\212.5457.51\bin\cmake\win\bin\cmake.exe -E vs_link_exe --intdir=CMakeFiles\c_binaural.dir --rc=rc --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100190~1.0\x64\mt.exe --manifests -- C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx64\x64\link.exe /nologo @CMakeFiles\c_binaural.dir\objects1.rsp @<<
  /out:c_binaural.exe /implib:c_binaural.lib /pdb:C:\Users\mario\OneDrive\Documents\cours\FYC\c-binaural\cmake-build-debug\c_binaural.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib 
 <<
