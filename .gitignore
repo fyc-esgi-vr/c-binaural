@@ -22,6 +22,9 @@
 *.lo
 
 
+/.idea
+/cmake-build-debug
+
 # Executables
 *.exe
 *.out
