@@ -1,3 +1,0 @@
-C:/Users/mario/OneDrive/Documents/cours/FYC/c-binaural/cmake-build-debug/CMakeFiles/c_binaural.dir
-C:/Users/mario/OneDrive/Documents/cours/FYC/c-binaural/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/mario/OneDrive/Documents/cours/FYC/c-binaural/cmake-build-debug/CMakeFiles/rebuild_cache.dir
