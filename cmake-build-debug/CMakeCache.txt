@@ -217,6 +217,9 @@ EXECUTABLE_OUTPUT_PATH:PATH=
 //Single output directory for building all libraries.
 LIBRARY_OUTPUT_PATH:PATH=
 
+//Path to a library.
+OGREMAIN_LIB:FILEPATH=OGREMAIN_LIB-NOTFOUND
+
 //Value Computed by CMake
 c_binaural_BINARY_DIR:STATIC=C:/Users/mario/OneDrive/Documents/cours/FYC/c-binaural/cmake-build-debug
 
