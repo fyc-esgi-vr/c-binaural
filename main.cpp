@@ -30,7 +30,7 @@ void save_output_audio(const std::string filename, std::vector<float> outputaudi
 int main() {
     // printf() displays the string inside quotation
     printf("Hello, World!");
-    std::vector<float> inputaudio = load_input_audio("inputaudio.raw");
+    std::vector<float> inputaudio = load_input_audio("inputaudio.wav");
 
     IPLContextSettings contextSettings{};
     contextSettings.version = STEAMAUDIO_VERSION;
