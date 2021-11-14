@@ -17,15 +17,12 @@ if(WIN32)
     endif()
     
     # Copy DLL to build directory.
-    if(MSVC)
-        configure_file(${SteamAudio_DLL} ${CMAKE_RUNTIME_OUTPUT_DIRECTORY}/Debug/phonon.dll COPYONLY)
-        configure_file(${SteamAudio_DLL} ${CMAKE_RUNTIME_OUTPUT_DIRECTORY}/Release/phonon.dll COPYONLY)
-    else()
-        configure_file(${SteamAudio_DLL} phonon.dll COPYONLY)
-    endif()
+    configure_file(${SteamAudio_DLL} phonon.dll COPYONLY)
+
 # Mac.
 elseif(APPLE)
     set(SteamAudio_LIBRARY "${CMAKE_CURRENT_SOURCE_DIR}/steamaudio/lib/osx/libphonon.dylib")
+    
 # Linux.
 elseif(UNIX)
     # 64-bit.
